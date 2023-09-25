@@ -7,7 +7,7 @@ jobs:
   build:
     uses: ./.github/workflows/main.yml
     with:
-      keyboard: '["crkbd\rev1"]'
+      keyboard: '["crkbd/rev1"]'
       alphas: '["QWERTY"]'
       nav: '["invertedT"]'
       clipboard: '["Win"]'
