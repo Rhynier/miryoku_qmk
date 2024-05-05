@@ -1,13 +1,13 @@
 # Copyright 2021 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-name:  Build'
+name: 'Build'
 on: [push, pull_request, workflow_dispatch]
 jobs:
   build:
     uses: ./.github/workflows/main.yml
     with:
-      keyboard: '["bastardkb/skeletyl/v2/splinky/v3"]'
+      keyboard: '["bastardkb/skeletyl/v2/splinky_3"]'
       alphas: '["QWERTY"]'
       nav: '["invertedT"]'
       clipboard: '["Win"]'
